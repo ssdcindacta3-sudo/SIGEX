@@ -1,0 +1,11 @@
+{
+  "name": "sigex",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Sistema de Gerenciamento de Extintores",
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "test": "npm run test --workspace=@sigex/domain"
+  },
+  "engines": { "node": ">=22" }
+}
